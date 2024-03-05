@@ -1,10 +1,13 @@
 var random1=Math.floor(Math.random()*6)+1;
 
-var randomimage= "dice"+random1+".png";
+// Generate a random number between 1 and 6
+var random1 = Math.floor(Math.random() * 6) + 1;
 
-var source=randomimage;
+// Construct the filename using the random number
+var randomimage = "dice" + random1 + ".png";
 
-document.querySelector(".img1").setAttribute("src",source);
+// Set the source attribute of the img element with class "img1" to the randomly selected image
+document.querySelector(".img1").setAttribute("src", randomimage);
 
 
 var random2=Math.floor(Math.random()*6)+1;
